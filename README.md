@@ -1,9 +1,9 @@
 # Custom AD/LDS database
 
 ## Deployment
-Given that username only users (ME users) were required and change password should work for all users all custom database scripts were implemented. 
+Custom database scripts were implemented for AD/LDAP CRUD operations. To deploy these go to the Auth0 Management Console create the database connection, mark it as custom and define the scripts. Some scripts can only be set via management api and are mentioned below.
 
-This includes [change_email](change_email.js) and [get_user](get_user.js) that cannot be edited using the Dashboard so the connection has to be set using either the Management API
+This includes [change_email](change_email.js) and [get_user](get_user.js) that cannot be edited using the Dashboard so the connection has to be modified using either the Management API
 
 In addition to the scripts the following configurations must be provided:
 
